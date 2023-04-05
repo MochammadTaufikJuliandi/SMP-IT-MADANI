@@ -1,27 +1,28 @@
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import content1 from './../assets/hero1.jpg';
+import kegiatan1 from '../assets/kegiatan1.jpg';
+import kegiatan2 from '../assets/kegiatan2.jpg';
+import kegiatan3 from '../assets/kegiatan3.jpg';
+import CardContent from './CardContent';
 
-export default function Main() {
-  return (
-    <Row xs={1} md={2} className="g-4 mt-5">
-      {Array.from({ length: 4 }).map((_, idx) => (
-        <Col>
-          <Card>
-            <Card.Img variant="top" src={content1} mt-5 />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
-  );
+const Main = ()=> {
+    return (
+        <div className="container">
+            <div className="row">
+              <div className="col-12 text-center my-5">
+                  <h1>Kegiatan</h1>
+              </div>
+              <div className="row justify-content-center">
+              <div className="col-lg-4 col-12">
+                  <CardContent image={kegiatan1} title= "Upacara Bendera" />
+              </div>
+              <div className="col-lg-4 col-12">
+                  <CardContent image={kegiatan3} title= "Lomba 17 Agustus" />
+              </div>
+              <div className="col-lg-4 col-12">
+                  <CardContent image={kegiatan2} title= "Pramuka SMP" />
+              </div>
+              </div>
+              </div>
+            </div>
+    )
 }
-
+export default Main;
