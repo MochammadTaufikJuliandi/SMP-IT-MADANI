@@ -1,6 +1,6 @@
 import kegiatan1 from '../assets/kegiatan1.jpg';
 import kegiatan2 from '../assets/kegiatan2.jpg';
-import kegiatan3 from '../assets/kegiatan3.jpg';
+import kegiatan4 from '../assets/kegiatan4.jpg';
 import CardContent from './CardContent';
 
 const Main = ()=> {
@@ -15,10 +15,10 @@ const Main = ()=> {
                   <CardContent image={kegiatan1} title= "Upacara Bendera" />
               </div>
               <div className="col-lg-4 col-12">
-                  <CardContent image={kegiatan3} title= "Lomba 17 Agustus" />
+                  <CardContent image={kegiatan4} title= "Lomba 17 Agustus" />
               </div>
               <div className="col-lg-4 col-12">
-                  <CardContent image={kegiatan2} title= "Pramuka SMP" />
+                  <CardContent image={kegiatan2} title= "Pramuka SMP IT Madani" />
               </div>
               </div>
               </div>
