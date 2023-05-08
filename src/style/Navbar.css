@@ -32,6 +32,10 @@ body {
   align-items: center;
 }
 
+#hamburgerButton {
+    color: white;
+}
+
 .app-bar .app-bar__menu button {
   background-color: transparent;
   border: none;
