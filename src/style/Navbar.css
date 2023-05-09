@@ -17,14 +17,14 @@ body {
 
 .app-bar {
   padding: 8px 16px;
-  background-color: rgb(20, 11, 11);
+  background-color: rgb(27, 27, 27);
   display: grid;
   grid-template-columns: auto 1fr auto;
   gap: 10px;
   position: sticky;
   top: 0;
   z-index: 99;
-  box-shadow: 0 2px 4px 0 rgb(16, 16, 155);
+  box-shadow: 0 2px 4px 0 rgb(230, 240, 255);
 }
 
 .app-bar .app-bar__menu {
@@ -63,7 +63,7 @@ body {
   width: 150px;
   transition: all 0.3s;
   padding: 8px;
-  background-color: rgba(20, 11, 11);
+  background-color: rgb(27, 27, 27);
   overflow: hidden;
 }
 
